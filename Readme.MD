@@ -1,15 +1,3 @@
-
-
-## Language
-
-* Python
-
-## Code Structured
-
-* red_blue_nim.py -> Python Red Blue Nim Game Code
-* Readme.MD -> Readme File
-* Answer.txt -> Answer File
-
 ## How to run
 
 1. Open Terminal
