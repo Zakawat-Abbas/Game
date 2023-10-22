@@ -1,0 +1,10 @@
+The evaluation function in the red-blue nim game is crucial for guiding the Minimax algorithm to make intelligent decisions and assess the game state's desirability. 
+The evaluation function's purpose is to estimate the relative strength of the current game position, considering both the immediate board state and the expected outcome.
+
+In the red-blue nim game, the primary goal is to either maximize your score (standard version) or minimize it (misère version) by the end of the game, depending on the 
+chosen version. The score is based on the number of marbles left, with different weights for red and blue marbles. Therefore, the reasoning behind the evaluation function 
+is as follows:
+
+1. Incorporating the Difference in Marbles.
+2. Balancing Red and Blue Marbles.
+3. Accounting for Endgame Conditions.
