@@ -103,7 +103,7 @@ if __name__ == "__main__":
     num_red = int(sys.argv[1])
     num_blue = int(sys.argv[2])
     version = sys.argv[3] if len(sys.argv) > 3 else "standard"
-    first_player = sys.argv[4] if len(sys.argv) > 4 else "computers"
+    first_player = sys.argv[4] if len(sys.argv) > 4 else "computer"
     depth = int(sys.argv[5]) if len(sys.argv) > 5 else 3
 
     is_misere = version == "misère"
